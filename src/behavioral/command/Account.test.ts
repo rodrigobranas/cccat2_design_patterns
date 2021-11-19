@@ -15,7 +15,7 @@ test("Deve creditar uma conta bancária", function () {
     expect(balance).toBe(1000);
 });
 
-test("Deve creditar uma conta bancária", function () {
+test("Deve debitar uma conta bancária", function () {
     const account = new Account();
     account.credit(1000);
     account.debit(500);
